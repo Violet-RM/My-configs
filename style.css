@@ -1,74 +1,85 @@
 * {
-	font-size: 20px;
-	font-family: monospace;
+  font-family: Inter Medium;
 }
 
-window#waybar {
-	background: #3D3043;
-	color: #8C699A;
+window {
+  margin: 1px;
+  border: 10px solid #1B0825;
+  border-radius: 30px 30px 30px 30px;
 }
 
-#custom-right-arrow-dark,
-#custom-left-arrow-dark {
-	color: #1a001a;
-}
-#custom-right-arrow-light,
-#custom-left-arrow-light {
-	color: #3D3043;
-	background: #1a001a;
-}
-
-#workspaces,
-#clock.1,
-#clock.2,
-#clock.3,
-#pulseaudio,
-#memory,
-#cpu,
-#battery,
-#disk,
-#tray {
-	background: #1a001a;
+#input {
+  margin: 5px;
+  border-radius: 0px;
+  border: none;
+  border-bottom: 0px solid black;
+  background-color: * {
+  font-family: Inter Medium;
 }
 
-#workspaces button {
-	padding: 0 2px;
-	color: #fdf6e3;
-}
-#workspaces button.focused {
-	color: #268bd2;
-}
-#workspaces button:hover {
-	box-shadow: inherit;
-	text-shadow: inherit;
-}
-#workspaces button:hover {
-	background: #1a001a;
-	border: #1a001a;
-	padding: 0 3px;
+window {
+  margin: 1px;
+  border: 10px solid #3B1B4A;
+  border-radius: 30px 30px 30px 30px;
 }
 
-#pulseaudio {
-	color: #fdf6e3;
-}
-#memory {
-	color: #2aa198;
-}
-#cpu {
-	color: #6c71c4;
-}
-#battery {
-	color: #6DBD6F;
-}
-#disk {
-	color: #d6c962;
+#input {
+  margin: 5px;
+  border-radius: 0px;
+  border: none;
+  border-bottom: 0px solid black;
+  background-color: #3B1B4A;
+  color: white;
 }
 
-#clock,
-#pulseaudio,
-#memory,
-#cpu,
-#battery,
-#disk {
-	padding: 0 10px;
+#inner-box {
+  margin: 5px;
+  background-color: #3B1B4A;
+}
+
+#outer-box {
+  margin: 5px;
+  padding: 20px;
+  background-color: #3B1B4A;
+  border-radius: 15px 15px 15px 15px;
+}
+
+#text {
+  margin: 5px;
+  color: white;
+}
+
+#entry:selected {
+  background-color: #151718;
+}
+
+#text:selected {
+  text-decoration-color: white;
+};
+  color: white;
+}
+
+#inner-box {
+  margin: 5px;
+  background-color: #3B1B4A;
+}
+
+#outer-box {
+  margin: 5px;
+  padding: 15px;
+  background-color: #3B1B4A;
+  border-radius: 30px 30px 30px 30px;
+}
+
+#text {
+  margin: 5px;
+  color: white;
+}
+
+#entry:selected {
+  background-color: #F200FF;
+}
+
+#text:selected {
+  text-decoration-color: white;
 }
